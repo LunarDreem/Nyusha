@@ -1,6 +1,5 @@
 header {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     background: black;
     width: 1920px;
@@ -8,6 +7,7 @@ header {
 }
 
 h1 {
+    margin-left: 15px;
     font-weight: 900;
     font-size: 32px;
     color: #FFFFFF;
@@ -40,11 +40,15 @@ main {
     transition-duration: 0.5s;
 }
 
-.blockImg:hover {
+.blockImg:hover>img {
+    display: block;
     border: 3px gray solid;
     transition-duration: 0.5s;
 }
-
+img{
+    display: none;
+    transition-duration: 0.5s;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -85,6 +89,6 @@ p {
     transition-duration: 2s;
 }
 
-h2 {
+strong{
     color: black;
 }
