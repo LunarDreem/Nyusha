@@ -31,7 +31,9 @@ main {
 .blockImg {
     border-radius: 6px;
     background-color: black;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 100px;
     width: 400px;
     height: 550px;
 }
@@ -60,7 +62,13 @@ p {
     font-variation-settings: 'slnt' 0;
 
 }
-.Cat{
+.icon{
+    fill: black;
     width: 30px;
     height: 30px;
+    transition-duration: 2s;
+}
+.icon:hover{
+    fill: lightgrey;
+    transition-duration: 2s;
 }
